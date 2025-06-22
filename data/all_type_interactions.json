@@ -1,0 +1,4008 @@
+{
+    "normal": {
+        "double_damage_from": [
+            "fighting"
+        ],
+        "double_damage_to": [],
+        "half_damage_from": [],
+        "half_damage_to": [
+            "rock",
+            "steel"
+        ],
+        "no_damage_from": [
+            "ghost"
+        ],
+        "no_damage_to": [
+            "ghost"
+        ],
+        "quadruple_damage_from": []
+    },
+    "fighting": {
+        "double_damage_from": [
+            "flying",
+            "psychic",
+            "fairy"
+        ],
+        "double_damage_to": [
+            "normal",
+            "rock",
+            "steel",
+            "ice",
+            "dark"
+        ],
+        "half_damage_from": [
+            "rock",
+            "bug",
+            "dark"
+        ],
+        "half_damage_to": [
+            "flying",
+            "poison",
+            "bug",
+            "psychic",
+            "fairy"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            "ghost"
+        ],
+        "quadruple_damage_from": []
+    },
+    "flying": {
+        "double_damage_from": [
+            "rock",
+            "electric",
+            "ice"
+        ],
+        "double_damage_to": [
+            "fighting",
+            "bug",
+            "grass"
+        ],
+        "half_damage_from": [
+            "fighting",
+            "bug",
+            "grass"
+        ],
+        "half_damage_to": [
+            "rock",
+            "steel",
+            "electric"
+        ],
+        "no_damage_from": [
+            "ground"
+        ],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "poison": {
+        "double_damage_from": [
+            "ground",
+            "psychic"
+        ],
+        "double_damage_to": [
+            "grass",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "fighting",
+            "poison",
+            "bug",
+            "grass",
+            "fairy"
+        ],
+        "half_damage_to": [
+            "poison",
+            "ground",
+            "rock",
+            "ghost"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            "steel"
+        ],
+        "quadruple_damage_from": []
+    },
+    "ground": {
+        "double_damage_from": [
+            "water",
+            "grass",
+            "ice"
+        ],
+        "double_damage_to": [
+            "poison",
+            "rock",
+            "steel",
+            "fire",
+            "electric"
+        ],
+        "half_damage_from": [
+            "poison",
+            "rock"
+        ],
+        "half_damage_to": [
+            "bug",
+            "grass"
+        ],
+        "no_damage_from": [
+            "electric"
+        ],
+        "no_damage_to": [
+            "flying"
+        ],
+        "quadruple_damage_from": []
+    },
+    "rock": {
+        "double_damage_from": [
+            "fighting",
+            "ground",
+            "steel",
+            "water",
+            "grass"
+        ],
+        "double_damage_to": [
+            "flying",
+            "bug",
+            "fire",
+            "ice"
+        ],
+        "half_damage_from": [
+            "normal",
+            "flying",
+            "poison",
+            "fire"
+        ],
+        "half_damage_to": [
+            "fighting",
+            "ground",
+            "steel"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "bug": {
+        "double_damage_from": [
+            "flying",
+            "rock",
+            "fire"
+        ],
+        "double_damage_to": [
+            "grass",
+            "psychic",
+            "dark"
+        ],
+        "half_damage_from": [
+            "fighting",
+            "ground",
+            "grass"
+        ],
+        "half_damage_to": [
+            "fighting",
+            "flying",
+            "poison",
+            "ghost",
+            "steel",
+            "fire",
+            "fairy"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "ghost": {
+        "double_damage_from": [
+            "ghost",
+            "dark"
+        ],
+        "double_damage_to": [
+            "ghost",
+            "psychic"
+        ],
+        "half_damage_from": [
+            "poison",
+            "bug"
+        ],
+        "half_damage_to": [
+            "dark"
+        ],
+        "no_damage_from": [
+            "normal",
+            "fighting"
+        ],
+        "no_damage_to": [
+            "normal"
+        ],
+        "quadruple_damage_from": []
+    },
+    "steel": {
+        "double_damage_from": [
+            "fighting",
+            "ground",
+            "fire"
+        ],
+        "double_damage_to": [
+            "rock",
+            "ice",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "normal",
+            "flying",
+            "rock",
+            "bug",
+            "steel",
+            "grass",
+            "psychic",
+            "ice",
+            "dragon",
+            "fairy"
+        ],
+        "half_damage_to": [
+            "steel",
+            "fire",
+            "water",
+            "electric"
+        ],
+        "no_damage_from": [
+            "poison"
+        ],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "fire": {
+        "double_damage_from": [
+            "ground",
+            "rock",
+            "water"
+        ],
+        "double_damage_to": [
+            "bug",
+            "steel",
+            "grass",
+            "ice"
+        ],
+        "half_damage_from": [
+            "bug",
+            "steel",
+            "fire",
+            "grass",
+            "ice",
+            "fairy"
+        ],
+        "half_damage_to": [
+            "rock",
+            "fire",
+            "water",
+            "dragon"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "water": {
+        "double_damage_from": [
+            "grass",
+            "electric"
+        ],
+        "double_damage_to": [
+            "ground",
+            "rock",
+            "fire"
+        ],
+        "half_damage_from": [
+            "steel",
+            "fire",
+            "water",
+            "ice"
+        ],
+        "half_damage_to": [
+            "water",
+            "grass",
+            "dragon"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "grass": {
+        "double_damage_from": [
+            "flying",
+            "poison",
+            "bug",
+            "fire",
+            "ice"
+        ],
+        "double_damage_to": [
+            "ground",
+            "rock",
+            "water"
+        ],
+        "half_damage_from": [
+            "ground",
+            "water",
+            "grass",
+            "electric"
+        ],
+        "half_damage_to": [
+            "flying",
+            "poison",
+            "bug",
+            "steel",
+            "fire",
+            "grass",
+            "dragon"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "electric": {
+        "double_damage_from": [
+            "ground"
+        ],
+        "double_damage_to": [
+            "flying",
+            "water"
+        ],
+        "half_damage_from": [
+            "flying",
+            "steel",
+            "electric"
+        ],
+        "half_damage_to": [
+            "grass",
+            "electric",
+            "dragon"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            "ground"
+        ],
+        "quadruple_damage_from": []
+    },
+    "psychic": {
+        "double_damage_from": [
+            "bug",
+            "ghost",
+            "dark"
+        ],
+        "double_damage_to": [
+            "fighting",
+            "poison"
+        ],
+        "half_damage_from": [
+            "fighting",
+            "psychic"
+        ],
+        "half_damage_to": [
+            "steel",
+            "psychic"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            "dark"
+        ],
+        "quadruple_damage_from": []
+    },
+    "ice": {
+        "double_damage_from": [
+            "fighting",
+            "rock",
+            "steel",
+            "fire"
+        ],
+        "double_damage_to": [
+            "flying",
+            "ground",
+            "grass",
+            "dragon"
+        ],
+        "half_damage_from": [
+            "ice"
+        ],
+        "half_damage_to": [
+            "steel",
+            "fire",
+            "water",
+            "ice"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "dragon": {
+        "double_damage_from": [
+            "ice",
+            "dragon",
+            "fairy"
+        ],
+        "double_damage_to": [
+            "dragon"
+        ],
+        "half_damage_from": [
+            "fire",
+            "water",
+            "grass",
+            "electric"
+        ],
+        "half_damage_to": [
+            "steel"
+        ],
+        "no_damage_from": [],
+        "no_damage_to": [
+            "fairy"
+        ],
+        "quadruple_damage_from": []
+    },
+    "dark": {
+        "double_damage_from": [
+            "fighting",
+            "bug",
+            "fairy"
+        ],
+        "double_damage_to": [
+            "ghost",
+            "psychic"
+        ],
+        "half_damage_from": [
+            "ghost",
+            "dark"
+        ],
+        "half_damage_to": [
+            "fighting",
+            "dark",
+            "fairy"
+        ],
+        "no_damage_from": [
+            "psychic"
+        ],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "fairy": {
+        "double_damage_from": [
+            "poison",
+            "steel"
+        ],
+        "double_damage_to": [
+            "fighting",
+            "dragon",
+            "dark"
+        ],
+        "half_damage_from": [
+            "fighting",
+            "bug",
+            "dark"
+        ],
+        "half_damage_to": [
+            "poison",
+            "steel",
+            "fire"
+        ],
+        "no_damage_from": [
+            "dragon"
+        ],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "stellar": {
+        "double_damage_from": [],
+        "double_damage_to": [],
+        "half_damage_from": [],
+        "half_damage_to": [],
+        "no_damage_from": [],
+        "no_damage_to": [],
+        "quadruple_damage_from": []
+    },
+    "normal, stellar": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fighting"
+        ],
+        "half_damage_from": []
+    },
+    "fighting, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "fairy",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "rock",
+            "dark"
+        ]
+    },
+    "flying, stellar": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fighting"
+        ]
+    },
+    "poison, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "grass",
+            "poison",
+            "fairy"
+        ]
+    },
+    "ground, stellar": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "water",
+            "ice"
+        ],
+        "half_damage_from": [
+            "poison",
+            "rock"
+        ]
+    },
+    "rock, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "grass",
+            "steel",
+            "water"
+        ],
+        "half_damage_from": [
+            "poison",
+            "normal",
+            "fire",
+            "flying"
+        ]
+    },
+    "bug, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "grass",
+            "ground",
+            "fighting"
+        ]
+    },
+    "ghost, stellar": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison"
+        ]
+    },
+    "steel, stellar": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "normal",
+            "ice",
+            "dragon",
+            "grass",
+            "psychic",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "rock"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fire",
+            "ice",
+            "grass",
+            "steel",
+            "fairy"
+        ]
+    },
+    "stellar, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "electric"
+        ],
+        "half_damage_from": [
+            "ice",
+            "steel",
+            "water",
+            "fire"
+        ]
+    },
+    "grass, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "flying",
+            "ice",
+            "fire",
+            "poison"
+        ],
+        "half_damage_from": [
+            "grass",
+            "electric",
+            "ground",
+            "water"
+        ]
+    },
+    "electric, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground"
+        ],
+        "half_damage_from": [
+            "electric",
+            "steel",
+            "flying"
+        ]
+    },
+    "psychic, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "psychic",
+            "fighting"
+        ]
+    },
+    "ice, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "steel",
+            "fighting",
+            "rock"
+        ],
+        "half_damage_from": [
+            "ice"
+        ]
+    },
+    "dragon, stellar": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fairy",
+            "dragon",
+            "ice"
+        ],
+        "half_damage_from": [
+            "grass",
+            "electric",
+            "water",
+            "fire"
+        ]
+    },
+    "dark, stellar": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "fairy",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "ghost",
+            "dark"
+        ]
+    },
+    "fairy, stellar": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "steel"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "dark"
+        ]
+    },
+    "fairy, normal": {
+        "no_damage_from": [
+            "ghost",
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "steel"
+        ],
+        "half_damage_from": [
+            "bug",
+            "dark"
+        ]
+    },
+    "fairy, fighting": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "bug",
+            "dark"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "flying",
+            "poison",
+            "steel",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "rock",
+            "dark"
+        ]
+    },
+    "fairy, flying": {
+        "no_damage_from": [
+            "ground",
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "bug",
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "rock",
+            "poison",
+            "steel"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fighting",
+            "dark"
+        ]
+    },
+    "fairy, poison": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "bug",
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "steel",
+            "psychic",
+            "ground"
+        ],
+        "half_damage_from": [
+            "grass",
+            "dark",
+            "bug",
+            "fighting",
+            "fairy"
+        ]
+    },
+    "fairy, ground": {
+        "no_damage_from": [
+            "electric",
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "steel",
+            "water",
+            "ice"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "rock",
+            "dark"
+        ]
+    },
+    "fairy, rock": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "steel"
+        ],
+        "double_damage_from": [
+            "grass",
+            "steel",
+            "ground",
+            "water"
+        ],
+        "half_damage_from": [
+            "normal",
+            "fire",
+            "dark",
+            "bug",
+            "flying"
+        ]
+    },
+    "bug, fairy": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "rock",
+            "flying",
+            "poison",
+            "steel"
+        ],
+        "half_damage_from": [
+            "ground",
+            "grass",
+            "dark",
+            "bug",
+            "fighting"
+        ]
+    },
+    "fairy, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "normal",
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "steel",
+            "ghost"
+        ],
+        "half_damage_from": [
+            "bug"
+        ]
+    },
+    "fairy, steel": {
+        "no_damage_from": [
+            "poison",
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "fire"
+        ],
+        "half_damage_from": [
+            "normal",
+            "ice",
+            "grass",
+            "psychic",
+            "dark",
+            "bug",
+            "rock",
+            "flying",
+            "fairy"
+        ]
+    },
+    "fairy, fire": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "ground",
+            "water",
+            "rock"
+        ],
+        "half_damage_from": [
+            "ice",
+            "fire",
+            "grass",
+            "dark",
+            "bug",
+            "fighting",
+            "fairy"
+        ]
+    },
+    "fairy, water": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "poison",
+            "electric"
+        ],
+        "half_damage_from": [
+            "fire",
+            "ice",
+            "water",
+            "dark",
+            "bug",
+            "fighting"
+        ]
+    },
+    "fairy, grass": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "poison"
+        ],
+        "double_damage_from": [
+            "fire",
+            "ice",
+            "flying",
+            "poison",
+            "steel"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "grass",
+            "water",
+            "dark",
+            "fighting"
+        ]
+    },
+    "electric, fairy": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "ground"
+        ],
+        "half_damage_from": [
+            "electric",
+            "dark",
+            "bug",
+            "fighting",
+            "flying"
+        ]
+    },
+    "fairy, psychic": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "steel",
+            "ghost"
+        ],
+        "half_damage_from": [
+            "psychic",
+            "fighting"
+        ]
+    },
+    "fairy, ice": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "steel"
+        ],
+        "double_damage_from": [
+            "fire",
+            "poison",
+            "steel",
+            "rock"
+        ],
+        "half_damage_from": [
+            "bug",
+            "ice",
+            "dark"
+        ]
+    },
+    "dragon, fairy": {
+        "no_damage_from": [
+            "dragon"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "steel",
+            "fairy",
+            "ice"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fire",
+            "grass",
+            "water",
+            "dark",
+            "bug",
+            "fighting"
+        ]
+    },
+    "dark, fairy": {
+        "no_damage_from": [
+            "psychic",
+            "dragon"
+        ],
+        "quarter_damage_from": [
+            "dark"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "steel",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "ghost",
+            "dark"
+        ]
+    },
+    "dark, normal": {
+        "no_damage_from": [
+            "psychic",
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "bug",
+            "fairy",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "dark"
+        ]
+    },
+    "dark, fighting": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [
+            "dark"
+        ],
+        "quadruple_damage_from": [
+            "fairy"
+        ],
+        "double_damage_from": [
+            "fairy",
+            "fighting",
+            "flying"
+        ],
+        "half_damage_from": [
+            "ghost",
+            "rock",
+            "dark"
+        ]
+    },
+    "dark, flying": {
+        "no_damage_from": [
+            "psychic",
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "fairy",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "ghost",
+            "dark"
+        ]
+    },
+    "dark, poison": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground"
+        ],
+        "half_damage_from": [
+            "grass",
+            "poison",
+            "ghost",
+            "dark"
+        ]
+    },
+    "dark, ground": {
+        "no_damage_from": [
+            "electric",
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "grass",
+            "water",
+            "bug",
+            "fighting",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "poison",
+            "ghost",
+            "rock",
+            "dark"
+        ]
+    },
+    "dark, rock": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "ground",
+            "grass",
+            "water",
+            "steel",
+            "bug",
+            "fighting",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "normal",
+            "fire",
+            "dark",
+            "ghost",
+            "flying",
+            "poison"
+        ]
+    },
+    "bug, dark": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "bug",
+            "rock",
+            "flying",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "grass",
+            "ground",
+            "ghost",
+            "dark"
+        ]
+    },
+    "dark, ghost": {
+        "no_damage_from": [
+            "psychic",
+            "normal",
+            "fighting"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fairy"
+        ],
+        "half_damage_from": [
+            "poison"
+        ]
+    },
+    "dark, steel": {
+        "no_damage_from": [
+            "poison",
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "dark",
+            "ghost",
+            "rock",
+            "flying",
+            "steel"
+        ]
+    },
+    "dark, fire": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting",
+            "rock"
+        ],
+        "half_damage_from": [
+            "fire",
+            "ice",
+            "grass",
+            "dark",
+            "ghost",
+            "steel"
+        ]
+    },
+    "dark, water": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "grass",
+            "bug",
+            "fighting",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "ice",
+            "fire",
+            "water",
+            "dark",
+            "ghost",
+            "steel"
+        ]
+    },
+    "dark, grass": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "bug"
+        ],
+        "double_damage_from": [
+            "ice",
+            "fire",
+            "bug",
+            "fighting",
+            "flying",
+            "poison",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "grass",
+            "water",
+            "dark",
+            "ghost"
+        ]
+    },
+    "dark, electric": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "fairy",
+            "ground",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "electric",
+            "dark",
+            "ghost",
+            "flying",
+            "steel"
+        ]
+    },
+    "dark, psychic": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "bug"
+        ],
+        "double_damage_from": [
+            "bug",
+            "fairy"
+        ],
+        "half_damage_from": []
+    },
+    "dark, ice": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "fire",
+            "bug",
+            "fighting",
+            "rock",
+            "steel",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "ghost",
+            "ice",
+            "dark"
+        ]
+    },
+    "dark, dragon": {
+        "no_damage_from": [
+            "psychic"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fairy"
+        ],
+        "double_damage_from": [
+            "dragon",
+            "ice",
+            "bug",
+            "fighting",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fire",
+            "grass",
+            "water",
+            "dark",
+            "ghost"
+        ]
+    },
+    "dragon, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fairy",
+            "dragon",
+            "ice",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "grass",
+            "electric",
+            "water",
+            "fire"
+        ]
+    },
+    "dragon, fighting": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fairy"
+        ],
+        "double_damage_from": [
+            "dragon",
+            "ice",
+            "flying",
+            "psychic",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "bug",
+            "fire",
+            "rock",
+            "grass",
+            "water",
+            "dark"
+        ]
+    },
+    "dragon, flying": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [
+            "ice"
+        ],
+        "double_damage_from": [
+            "ice",
+            "fairy",
+            "dragon",
+            "rock"
+        ],
+        "half_damage_from": [
+            "fire",
+            "grass",
+            "water",
+            "bug",
+            "fighting"
+        ]
+    },
+    "dragon, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "dragon",
+            "ice"
+        ],
+        "half_damage_from": [
+            "electric",
+            "bug",
+            "fighting",
+            "fire",
+            "grass",
+            "poison",
+            "water"
+        ]
+    },
+    "dragon, ground": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "ice"
+        ],
+        "double_damage_from": [
+            "fairy",
+            "dragon",
+            "ice"
+        ],
+        "half_damage_from": [
+            "poison",
+            "fire",
+            "rock"
+        ]
+    },
+    "dragon, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "fire"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "dragon",
+            "ice",
+            "fighting",
+            "steel",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "normal",
+            "fire",
+            "flying",
+            "poison"
+        ]
+    },
+    "bug, dragon": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "flying",
+            "dragon",
+            "ice",
+            "rock",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "fighting",
+            "grass",
+            "water"
+        ]
+    },
+    "dragon, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "dragon",
+            "ice",
+            "dark",
+            "ghost",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fire",
+            "grass",
+            "water",
+            "bug",
+            "poison"
+        ]
+    },
+    "dragon, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "electric",
+            "normal",
+            "grass",
+            "psychic",
+            "water",
+            "bug",
+            "rock",
+            "flying",
+            "steel"
+        ]
+    },
+    "dragon, fire": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass",
+            "fire"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "dragon",
+            "rock"
+        ],
+        "half_damage_from": [
+            "electric",
+            "bug",
+            "fire",
+            "grass",
+            "steel"
+        ]
+    },
+    "dragon, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "water",
+            "fire"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fairy",
+            "dragon"
+        ],
+        "half_damage_from": [
+            "steel",
+            "water",
+            "fire"
+        ]
+    },
+    "dragon, grass": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass",
+            "electric",
+            "water"
+        ],
+        "quadruple_damage_from": [
+            "ice"
+        ],
+        "double_damage_from": [
+            "bug",
+            "dragon",
+            "ice",
+            "flying",
+            "poison",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "water",
+            "grass"
+        ]
+    },
+    "dragon, electric": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "electric"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fairy",
+            "ground",
+            "dragon",
+            "ice"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fire",
+            "flying",
+            "grass",
+            "steel",
+            "water"
+        ]
+    },
+    "dragon, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "dragon",
+            "ice",
+            "ghost",
+            "fairy",
+            "dark"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fighting",
+            "fire",
+            "grass",
+            "psychic",
+            "water"
+        ]
+    },
+    "dragon, ice": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "dragon",
+            "fighting",
+            "rock",
+            "steel",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "water",
+            "grass"
+        ]
+    },
+    "ice, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "steel",
+            "rock",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "ice"
+        ]
+    },
+    "fighting, ice": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "steel",
+            "fighting",
+            "fire",
+            "flying",
+            "psychic",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "bug",
+            "ice",
+            "dark"
+        ]
+    },
+    "flying, ice": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "rock"
+        ],
+        "double_damage_from": [
+            "electric",
+            "fire",
+            "steel",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug"
+        ]
+    },
+    "ice, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "steel",
+            "ground",
+            "fire",
+            "rock",
+            "psychic"
+        ],
+        "half_damage_from": [
+            "bug",
+            "ice",
+            "grass",
+            "poison",
+            "fairy"
+        ]
+    },
+    "ground, ice": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "grass",
+            "water",
+            "fighting",
+            "steel"
+        ],
+        "half_damage_from": [
+            "poison"
+        ]
+    },
+    "ice, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "steel",
+            "fighting"
+        ],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "rock",
+            "grass",
+            "steel",
+            "water"
+        ],
+        "half_damage_from": [
+            "poison",
+            "normal",
+            "ice",
+            "flying"
+        ]
+    },
+    "bug, ice": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "rock",
+            "fire"
+        ],
+        "double_damage_from": [
+            "steel",
+            "rock",
+            "fire",
+            "flying"
+        ],
+        "half_damage_from": [
+            "grass",
+            "ground",
+            "ice"
+        ]
+    },
+    "ghost, ice": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "dark",
+            "ghost",
+            "rock",
+            "steel"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison",
+            "ice"
+        ]
+    },
+    "ice, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "ice"
+        ],
+        "quadruple_damage_from": [
+            "fighting",
+            "fire"
+        ],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "psychic",
+            "bug",
+            "flying",
+            "fairy"
+        ]
+    },
+    "fire, ice": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "ice"
+        ],
+        "quadruple_damage_from": [
+            "rock"
+        ],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fairy",
+            "ice"
+        ]
+    },
+    "ice, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "ice"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "fighting",
+            "rock",
+            "grass"
+        ],
+        "half_damage_from": [
+            "water",
+            "ice"
+        ]
+    },
+    "grass, ice": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fire"
+        ],
+        "double_damage_from": [
+            "bug",
+            "flying",
+            "fighting",
+            "fire",
+            "rock",
+            "poison",
+            "steel"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "water",
+            "grass"
+        ]
+    },
+    "electric, ice": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "rock",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ice",
+            "flying"
+        ]
+    },
+    "ice, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "ghost",
+            "fire",
+            "rock",
+            "steel",
+            "dark"
+        ],
+        "half_damage_from": [
+            "psychic",
+            "ice"
+        ]
+    },
+    "normal, psychic": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "dark"
+        ],
+        "half_damage_from": [
+            "psychic"
+        ]
+    },
+    "fighting, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fairy",
+            "ghost",
+            "flying"
+        ],
+        "half_damage_from": [
+            "fighting",
+            "rock"
+        ]
+    },
+    "flying, psychic": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "dark",
+            "ghost",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "psychic",
+            "fighting"
+        ]
+    },
+    "poison, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "grass",
+            "poison",
+            "fairy",
+            "fighting"
+        ]
+    },
+    "ground, psychic": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "grass",
+            "water",
+            "dark",
+            "bug",
+            "ghost"
+        ],
+        "half_damage_from": [
+            "poison",
+            "psychic",
+            "fighting",
+            "rock"
+        ]
+    },
+    "psychic, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "ground",
+            "ghost",
+            "grass",
+            "steel",
+            "water",
+            "dark"
+        ],
+        "half_damage_from": [
+            "normal",
+            "fire",
+            "flying",
+            "poison",
+            "psychic"
+        ]
+    },
+    "bug, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "flying",
+            "ghost",
+            "fire",
+            "rock",
+            "dark"
+        ],
+        "half_damage_from": [
+            "grass",
+            "psychic",
+            "ground",
+            "fighting"
+        ]
+    },
+    "ghost, psychic": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "ghost",
+            "dark"
+        ],
+        "double_damage_from": [
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "poison",
+            "psychic"
+        ]
+    },
+    "psychic, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "psychic"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "ghost",
+            "fire",
+            "dark"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "psychic",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "ghost",
+            "rock",
+            "water",
+            "dark"
+        ],
+        "half_damage_from": [
+            "steel",
+            "fighting",
+            "fire",
+            "ice",
+            "grass",
+            "psychic",
+            "fairy"
+        ]
+    },
+    "psychic, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "bug",
+            "ghost",
+            "grass",
+            "dark"
+        ],
+        "half_damage_from": [
+            "steel",
+            "fighting",
+            "fire",
+            "ice",
+            "psychic",
+            "water"
+        ]
+    },
+    "grass, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "bug"
+        ],
+        "double_damage_from": [
+            "bug",
+            "flying",
+            "ghost",
+            "fire",
+            "ice",
+            "poison",
+            "dark"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "fighting",
+            "grass",
+            "psychic",
+            "water"
+        ]
+    },
+    "electric, psychic": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "ground",
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "electric",
+            "steel",
+            "fighting",
+            "flying",
+            "psychic"
+        ]
+    },
+    "electric, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "electric",
+            "steel",
+            "flying"
+        ]
+    },
+    "electric, fighting": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "bug",
+            "rock",
+            "steel",
+            "dark"
+        ]
+    },
+    "electric, flying": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fighting",
+            "flying",
+            "steel"
+        ]
+    },
+    "electric, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "psychic",
+            "ground"
+        ],
+        "half_damage_from": [
+            "electric",
+            "grass",
+            "bug",
+            "fighting",
+            "flying",
+            "poison",
+            "steel",
+            "fairy"
+        ]
+    },
+    "electric, ground": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "ground",
+            "water",
+            "ice"
+        ],
+        "half_damage_from": [
+            "poison",
+            "steel",
+            "rock",
+            "flying"
+        ]
+    },
+    "electric, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "flying"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "grass",
+            "ground",
+            "water",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "electric",
+            "normal",
+            "fire",
+            "flying",
+            "poison"
+        ]
+    },
+    "bug, electric": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "rock"
+        ],
+        "half_damage_from": [
+            "electric",
+            "steel",
+            "fighting",
+            "grass"
+        ]
+    },
+    "electric, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "electric",
+            "bug",
+            "flying",
+            "poison",
+            "steel"
+        ]
+    },
+    "electric, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "steel",
+            "flying"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "electric",
+            "normal",
+            "ice",
+            "dragon",
+            "grass",
+            "psychic",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "electric, fire": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "steel"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "rock"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fire",
+            "ice",
+            "grass",
+            "bug",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "electric, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "steel"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "ground"
+        ],
+        "half_damage_from": [
+            "flying",
+            "ice",
+            "fire",
+            "steel",
+            "water"
+        ]
+    },
+    "electric, grass": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "electric"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "bug",
+            "poison",
+            "fire"
+        ],
+        "half_damage_from": [
+            "electric",
+            "steel",
+            "water",
+            "grass"
+        ]
+    },
+    "grass, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "ice",
+            "bug",
+            "fighting",
+            "flying",
+            "poison"
+        ],
+        "half_damage_from": [
+            "grass",
+            "water",
+            "electric",
+            "ground"
+        ]
+    },
+    "fighting, grass": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "flying"
+        ],
+        "double_damage_from": [
+            "flying",
+            "fire",
+            "ice",
+            "poison",
+            "psychic",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "rock",
+            "grass",
+            "water",
+            "dark"
+        ]
+    },
+    "flying, grass": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [
+            "ice"
+        ],
+        "double_damage_from": [
+            "ice",
+            "fire",
+            "rock",
+            "flying",
+            "poison"
+        ],
+        "half_damage_from": [
+            "grass",
+            "water",
+            "fighting"
+        ]
+    },
+    "grass, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "fire",
+            "ice",
+            "flying"
+        ],
+        "half_damage_from": [
+            "electric",
+            "fighting",
+            "grass",
+            "fairy",
+            "water"
+        ]
+    },
+    "grass, ground": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "ice"
+        ],
+        "double_damage_from": [
+            "ice",
+            "bug",
+            "fire",
+            "flying"
+        ],
+        "half_damage_from": [
+            "ground",
+            "rock"
+        ]
+    },
+    "grass, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "steel",
+            "fighting",
+            "ice"
+        ],
+        "half_damage_from": [
+            "electric",
+            "normal"
+        ]
+    },
+    "bug, grass": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass",
+            "ground"
+        ],
+        "quadruple_damage_from": [
+            "fire",
+            "flying"
+        ],
+        "double_damage_from": [
+            "bug",
+            "flying",
+            "ice",
+            "fire",
+            "rock",
+            "poison"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "fighting",
+            "grass",
+            "water"
+        ]
+    },
+    "ghost, grass": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "fire",
+            "dark",
+            "ghost",
+            "flying"
+        ],
+        "half_damage_from": [
+            "electric",
+            "ground",
+            "water",
+            "grass"
+        ]
+    },
+    "grass, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [
+            "fire"
+        ],
+        "double_damage_from": [
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "electric",
+            "dragon",
+            "normal",
+            "grass",
+            "psychic",
+            "water",
+            "rock",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, grass": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "poison",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "electric",
+            "steel",
+            "fairy",
+            "grass"
+        ]
+    },
+    "grass, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "water"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "bug",
+            "poison",
+            "flying"
+        ],
+        "half_damage_from": [
+            "steel",
+            "ground",
+            "water"
+        ]
+    },
+    "normal, water": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "electric",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "fire",
+            "steel",
+            "water",
+            "ice"
+        ]
+    },
+    "fighting, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "flying",
+            "grass",
+            "psychic",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "bug",
+            "ice",
+            "fire",
+            "rock",
+            "steel",
+            "water",
+            "dark"
+        ]
+    },
+    "flying, water": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "electric"
+        ],
+        "double_damage_from": [
+            "electric",
+            "rock"
+        ],
+        "half_damage_from": [
+            "fire",
+            "water",
+            "bug",
+            "fighting",
+            "steel"
+        ]
+    },
+    "poison, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "psychic",
+            "ground"
+        ],
+        "half_damage_from": [
+            "ice",
+            "fire",
+            "water",
+            "bug",
+            "fighting",
+            "poison",
+            "steel",
+            "fairy"
+        ]
+    },
+    "ground, water": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "grass"
+        ],
+        "double_damage_from": [
+            "grass"
+        ],
+        "half_damage_from": [
+            "fire",
+            "poison",
+            "steel",
+            "rock"
+        ]
+    },
+    "rock, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "fire"
+        ],
+        "quadruple_damage_from": [
+            "grass"
+        ],
+        "double_damage_from": [
+            "electric",
+            "ground",
+            "fighting",
+            "grass"
+        ],
+        "half_damage_from": [
+            "flying",
+            "normal",
+            "fire",
+            "ice",
+            "poison"
+        ]
+    },
+    "bug, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "ground",
+            "fighting",
+            "ice",
+            "steel",
+            "water"
+        ]
+    },
+    "ghost, water": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "electric",
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "fire",
+            "ice",
+            "water",
+            "bug",
+            "poison",
+            "steel"
+        ]
+    },
+    "steel, water": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "steel",
+            "ice"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ground",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "normal",
+            "ice",
+            "dragon",
+            "psychic",
+            "water",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, water": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "fire",
+            "steel",
+            "ice"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ground",
+            "rock"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fire",
+            "ice",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting",
+            "rock"
+        ],
+        "half_damage_from": [
+            "ice",
+            "fire",
+            "grass",
+            "bug",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fighting, fire": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "water",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "ice",
+            "fire",
+            "grass",
+            "steel",
+            "dark"
+        ]
+    },
+    "fire, flying": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "grass",
+            "bug"
+        ],
+        "quadruple_damage_from": [
+            "rock"
+        ],
+        "double_damage_from": [
+            "electric",
+            "water",
+            "rock"
+        ],
+        "half_damage_from": [
+            "fire",
+            "grass",
+            "bug",
+            "fighting",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass",
+            "bug",
+            "fairy"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "water",
+            "rock"
+        ],
+        "half_damage_from": [
+            "fire",
+            "ice",
+            "grass",
+            "bug",
+            "fighting",
+            "poison",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, ground": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "water"
+        ],
+        "double_damage_from": [
+            "ground",
+            "water"
+        ],
+        "half_damage_from": [
+            "fire",
+            "bug",
+            "poison",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "fire"
+        ],
+        "quadruple_damage_from": [
+            "ground",
+            "water"
+        ],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting",
+            "rock"
+        ],
+        "half_damage_from": [
+            "bug",
+            "flying",
+            "normal",
+            "ice",
+            "fire",
+            "poison",
+            "fairy"
+        ]
+    },
+    "bug, fire": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [
+            "rock"
+        ],
+        "double_damage_from": [
+            "water",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "ice",
+            "grass",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "dark",
+            "ghost",
+            "rock"
+        ],
+        "half_damage_from": [
+            "ice",
+            "fire",
+            "grass",
+            "bug",
+            "poison",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fire, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "ice",
+            "grass",
+            "bug",
+            "steel",
+            "fairy"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "psychic",
+            "bug",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "normal, steel": {
+        "no_damage_from": [
+            "poison",
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "psychic",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "fighting, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "bug",
+            "rock"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "dark",
+            "bug",
+            "rock",
+            "steel"
+        ]
+    },
+    "flying, steel": {
+        "no_damage_from": [
+            "poison",
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "grass",
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "fire"
+        ],
+        "half_damage_from": [
+            "normal",
+            "dragon",
+            "grass",
+            "psychic",
+            "bug",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "poison, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "grass",
+            "bug",
+            "fairy"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "ground",
+            "fire"
+        ],
+        "half_damage_from": [
+            "normal",
+            "ice",
+            "dragon",
+            "grass",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "ground, steel": {
+        "no_damage_from": [
+            "electric",
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "rock"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting",
+            "fire"
+        ],
+        "half_damage_from": [
+            "normal",
+            "dragon",
+            "psychic",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "rock, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "normal",
+            "flying"
+        ],
+        "quadruple_damage_from": [
+            "ground",
+            "fighting"
+        ],
+        "double_damage_from": [
+            "ground",
+            "water",
+            "fighting"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "psychic",
+            "bug",
+            "rock",
+            "flying",
+            "fairy"
+        ]
+    },
+    "bug, steel": {
+        "no_damage_from": [
+            "poison"
+        ],
+        "quarter_damage_from": [
+            "grass"
+        ],
+        "quadruple_damage_from": [
+            "fire"
+        ],
+        "double_damage_from": [
+            "fire"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "normal",
+            "ice",
+            "grass",
+            "psychic",
+            "bug",
+            "steel",
+            "fairy"
+        ]
+    },
+    "ghost, steel": {
+        "no_damage_from": [
+            "poison",
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "ghost",
+            "fire",
+            "dark"
+        ],
+        "half_damage_from": [
+            "dragon",
+            "ice",
+            "grass",
+            "psychic",
+            "bug",
+            "rock",
+            "flying",
+            "steel",
+            "fairy"
+        ]
+    },
+    "ghost, normal": {
+        "no_damage_from": [
+            "ghost",
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "dark"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison"
+        ]
+    },
+    "fighting, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "fairy",
+            "ghost",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison",
+            "rock"
+        ]
+    },
+    "flying, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "ground",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "dark",
+            "ghost",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "poison"
+        ]
+    },
+    "ghost, poison": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "bug",
+            "poison"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "ghost",
+            "dark"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "poison",
+            "fairy"
+        ]
+    },
+    "ghost, ground": {
+        "no_damage_from": [
+            "electric",
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "poison"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "grass",
+            "water",
+            "dark",
+            "ghost"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison",
+            "rock"
+        ]
+    },
+    "ghost, rock": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [
+            "poison"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ground",
+            "grass",
+            "water",
+            "dark",
+            "ghost",
+            "steel"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison",
+            "fire",
+            "flying"
+        ]
+    },
+    "bug, ghost": {
+        "no_damage_from": [
+            "fighting",
+            "normal"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "dark",
+            "ghost",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "poison",
+            "ground"
+        ]
+    },
+    "bug, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "grass",
+            "ground"
+        ]
+    },
+    "bug, fighting": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "flying"
+        ],
+        "double_damage_from": [
+            "psychic",
+            "fairy",
+            "fire",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "ground",
+            "fighting",
+            "grass",
+            "dark"
+        ]
+    },
+    "bug, flying": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "grass",
+            "fighting"
+        ],
+        "quadruple_damage_from": [
+            "rock"
+        ],
+        "double_damage_from": [
+            "electric",
+            "fire",
+            "ice",
+            "rock",
+            "flying"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fighting"
+        ]
+    },
+    "bug, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "grass",
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "rock",
+            "fire",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "grass",
+            "poison",
+            "fairy"
+        ]
+    },
+    "bug, ground": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "fire",
+            "water",
+            "ice",
+            "flying"
+        ],
+        "half_damage_from": [
+            "poison",
+            "ground",
+            "fighting"
+        ]
+    },
+    "bug, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "steel",
+            "water",
+            "rock"
+        ],
+        "half_damage_from": [
+            "poison",
+            "normal"
+        ]
+    },
+    "normal, rock": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "fighting"
+        ],
+        "double_damage_from": [
+            "ground",
+            "grass",
+            "water",
+            "fighting",
+            "steel"
+        ],
+        "half_damage_from": [
+            "poison",
+            "normal",
+            "fire",
+            "flying"
+        ]
+    },
+    "fighting, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "steel",
+            "ground",
+            "fighting",
+            "fairy",
+            "grass",
+            "psychic",
+            "water"
+        ],
+        "half_damage_from": [
+            "bug",
+            "normal",
+            "fire",
+            "rock",
+            "poison",
+            "dark"
+        ]
+    },
+    "flying, rock": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "water",
+            "rock",
+            "steel"
+        ],
+        "half_damage_from": [
+            "normal",
+            "fire",
+            "bug",
+            "flying",
+            "poison"
+        ]
+    },
+    "poison, rock": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "poison"
+        ],
+        "quadruple_damage_from": [
+            "ground"
+        ],
+        "double_damage_from": [
+            "steel",
+            "psychic",
+            "ground",
+            "water"
+        ],
+        "half_damage_from": [
+            "bug",
+            "normal",
+            "fire",
+            "flying",
+            "poison",
+            "fairy"
+        ]
+    },
+    "ground, rock": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [
+            "poison"
+        ],
+        "quadruple_damage_from": [
+            "grass",
+            "water"
+        ],
+        "double_damage_from": [
+            "ground",
+            "ice",
+            "grass",
+            "water",
+            "fighting",
+            "steel"
+        ],
+        "half_damage_from": [
+            "normal",
+            "fire",
+            "rock",
+            "flying",
+            "poison"
+        ]
+    },
+    "ground, normal": {
+        "no_damage_from": [
+            "electric",
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "grass",
+            "water",
+            "fighting",
+            "ice"
+        ],
+        "half_damage_from": [
+            "poison",
+            "rock"
+        ]
+    },
+    "fighting, ground": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [
+            "rock"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "ice",
+            "grass",
+            "psychic",
+            "water",
+            "flying",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison",
+            "rock",
+            "dark"
+        ]
+    },
+    "flying, ground": {
+        "no_damage_from": [
+            "electric",
+            "ground"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [
+            "ice"
+        ],
+        "double_damage_from": [
+            "water",
+            "ice"
+        ],
+        "half_damage_from": [
+            "bug",
+            "poison",
+            "fighting"
+        ]
+    },
+    "ground, poison": {
+        "no_damage_from": [
+            "electric"
+        ],
+        "quarter_damage_from": [
+            "poison"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "water",
+            "ice"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "rock",
+            "poison",
+            "fairy"
+        ]
+    },
+    "normal, poison": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "ground"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "poison",
+            "fairy"
+        ]
+    },
+    "fighting, poison": {
+        "no_damage_from": [],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [
+            "psychic"
+        ],
+        "double_damage_from": [
+            "psychic",
+            "ground",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "fighting",
+            "rock",
+            "grass",
+            "poison",
+            "dark"
+        ]
+    },
+    "flying, poison": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "grass",
+            "bug",
+            "fighting"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "psychic",
+            "rock",
+            "ice"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fighting",
+            "poison",
+            "fairy"
+        ]
+    },
+    "flying, normal": {
+        "no_damage_from": [
+            "ground",
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "rock"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug"
+        ]
+    },
+    "fighting, flying": {
+        "no_damage_from": [
+            "ground"
+        ],
+        "quarter_damage_from": [
+            "bug"
+        ],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "electric",
+            "ice",
+            "psychic",
+            "flying",
+            "fairy"
+        ],
+        "half_damage_from": [
+            "grass",
+            "bug",
+            "fighting",
+            "dark"
+        ]
+    },
+    "fighting, normal": {
+        "no_damage_from": [
+            "ghost"
+        ],
+        "quarter_damage_from": [],
+        "quadruple_damage_from": [],
+        "double_damage_from": [
+            "psychic",
+            "fairy",
+            "fighting",
+            "flying"
+        ],
+        "half_damage_from": [
+            "bug",
+            "rock",
+            "dark"
+        ]
+    }
+}
