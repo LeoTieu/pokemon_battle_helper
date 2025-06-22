@@ -1,0 +1,37 @@
+# JSON files from https://github.com/LeoTieu/pokemon_data
+
+import json
+
+
+with open("data/all_type_interactions.json", "r") as file:
+    type_interactions = json.load(file)
+with open("data/pokemon_types.json", "r") as file:
+    pokemon_type_dict = json.load(file)
+with open("data/pokemons.json", "r") as file:
+    pokemons = json.load(file)
+
+def get_interactions(pokemon: str) -> dict:
+    '''Identifies battle interactions of a specific pokemon'''
+    pokemon_type =  pokemon_type_dict[pokemon]
+    return type_interactions[pokemon_type]
+
+
+if __name__ == "__main__":
+    print(get_interactions("lucario"))
+    
+    # "ground, ice": {
+    #     "no_damage_from": [
+    #         "electric"
+    #     ],
+    #     "quarter_damage_from": [],
+    #     "quadruple_damage_from": [],
+    #     "double_damage_from": [
+    #         "fire",
+    #         "grass",
+    #         "water",
+    #         "fighting",
+    #         "steel"
+    #     ],
+    #     "half_damage_from": [
+    #         "poison"
+    #     ]
