@@ -12,26 +12,52 @@ with open("data/pokemons.json", "r") as file:
 
 def get_interactions(pokemon: str) -> dict:
     '''Identifies battle interactions of a specific pokemon'''
+    pokemon = pokemon.lower()
+    if pokemon not in pokemon_type_dict:
+        print("Pokemon not found. Please check again.")
+        return # type: ignore
     pokemon_type =  pokemon_type_dict[pokemon]
     return type_interactions[pokemon_type]
 
 
-if __name__ == "__main__":
-    print(get_interactions("lucario"))
+def print_coverage_for_pokemon(pokemon: str, is_type = False) -> None:
+    '''Prints all type matchups against the pokemon.
     
-    # "ground, ice": {
-    #     "no_damage_from": [
-    #         "electric"
-    #     ],
-    #     "quarter_damage_from": [],
-    #     "quadruple_damage_from": [],
-    #     "double_damage_from": [
-    #         "fire",
-    #         "grass",
-    #         "water",
-    #         "fighting",
-    #         "steel"
-    #     ],
-    #     "half_damage_from": [
-    #         "poison"
-    #     ]
+    if is_type is true then it will instead find interaction 
+    for that specific type or type combination.
+
+    For 2 elements, elements must be in following format: "type_1, type_2"
+    Order of type and uppercase/lowercase does not matter
+    '''
+    pokemon = pokemon.lower()
+
+    if is_type == True:
+        # Yes, the pokemon variable is now a variable for the types. 
+        # Give me a better idéa and I might change it.
+        pokemon = sorted(pokemon.split()) # type: ignore
+        pokemon = ', '.join(pokemon)
+        pokemon_interactions = type_interactions[pokemon]
+    else:
+        pokemon_interactions = get_interactions(pokemon)
+    print_interaction_message("4x damage from", pokemon_interactions["quadruple_damage_from"])
+    print_interaction_message("2x damage from", pokemon_interactions["double_damage_from"])
+    print_interaction_message("1/2 damage from", pokemon_interactions["half_damage_from"])
+    print_interaction_message("1/4 damage from", pokemon_interactions["quarter_damage_from"])
+    print_interaction_message("immunities", pokemon_interactions["no_damage_from"])
+
+
+def print_interaction_message(label: str, interaction_list: list) -> None:
+    """Prints a label followed by a list of a Pókemon types."""
+    if len(interaction_list) == 0:
+        print(f"{label}: None")
+    else:
+        print(f"{label}: ", end="")
+        for type in interaction_list:
+            print(type, end=" ")
+        print("")
+
+
+    
+
+if __name__ == "__main__":
+    print_coverage_for_pokemon("water steel", is_type=True)
