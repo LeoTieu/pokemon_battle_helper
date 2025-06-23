@@ -20,7 +20,7 @@ def get_interactions(pokemon: str) -> dict:
     return type_interactions[pokemon_type]
 
 
-def print_coverage_for_pokemon(pokemon: str, is_type = False) -> None:
+def print_coverage_for_pokemon(pokemon: str) -> None:
     """Prints all type matchups against the pokemon."""
     pokemon = pokemon.lower()
     interactions = get_interactions(pokemon)
@@ -28,8 +28,16 @@ def print_coverage_for_pokemon(pokemon: str, is_type = False) -> None:
 
 
 def print_coverage_for_type(type: str) -> None:
-    """Temporary"""
-    pass
+    """Prints type matchups against given type.
+    
+    Format required is "type_1 type_2"
+    Undercase and lowercase does not matter.
+    """
+    type = type.lower()
+    type = ", ".join(sorted(type.split()))
+    intereractions = type_interactions[type]
+    print_coverage(intereractions)
+
 
 def print_coverage(interaction_dict: dict) -> None:
     print_interaction_message("4x damage from", interaction_dict["quadruple_damage_from"])
@@ -50,7 +58,5 @@ def print_interaction_message(label: str, interaction_list: list) -> None:
         print("")
 
 
-    
-
 if __name__ == "__main__":
-    print_coverage_for_pokemon("water steel", is_type=True)
+    print_coverage_for_type("water steel")
