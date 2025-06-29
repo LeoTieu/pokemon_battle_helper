@@ -1,5 +1,8 @@
 import battle_functions
 import sys
+from os import system
+
+clear_words = ["clear", "clr", "c"]
 
 def main():
     print("Type help for all commands, type exit to close")
@@ -8,15 +11,22 @@ def main():
         user_input = remove_special_chars(user_input).lower().split()
         first_word = user_input[0]
         if first_word == "help":
-            print_available_functions()
-        if first_word == "weakness":
+            if len(user_input) == 1:
+                print_available_functions()
+            else:
+                print("Not available right now")
+        elif first_word == "weakness":
             pass
-        if first_word == "exit":
+        elif first_word in clear_words:
+            system("clr")
+        elif first_word == "exit":
             sys.exit()
-    
+
 
 def print_available_functions() -> None:
-    pass
+    print("Commands available are:")
+    print("help, clear, weakness")
+    print("To know what a function does, type 'help + command'")
 
 def remove_special_chars(input_string: str) -> str:
     """Removes special characters from a given string
@@ -34,4 +44,3 @@ def remove_special_chars(input_string: str) -> str:
 
 if __name__ == '__main__':
     main()
-    
