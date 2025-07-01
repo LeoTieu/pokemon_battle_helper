@@ -1,7 +1,7 @@
 import battle_functions
 import sys
 from os import system
-from misc import print_new_line, print_available_functions, remove_special_chars
+from misc import print_new_line, print_available_functions, remove_special_chars, is_type
 clear_words = ("clear", "clr", "c")
 weakness_words = ("w", "weak", "weakness")
 
@@ -19,6 +19,16 @@ def main():
                 print("Not available right now")
 
         elif first_word in weakness_words:
+            if is_type(user_input[1]):
+                pokemon_type = [user_input[1]]
+                if len(user_input) > 2:
+                    pokemon_type.append(user_input[2])
+                    pokemon_type = sorted(pokemon_type)
+                pokemon_type = ", ".join(sorted(pokemon_type))
+                battle_functions.print_coverage_for_type(pokemon_type)
+                
+                    
+
             print_new_line()
             battle_functions.print_coverage_for_pokemon(user_input[1])
 

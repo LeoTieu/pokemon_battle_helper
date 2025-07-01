@@ -1,3 +1,10 @@
+all_types = ['normal', 'fighting', 'flying', 'poison', 'ground', 'rock', 'bug', 'ghost', 'steel', 'fire', 'water', 'grass', 'electric', 'psychic', 'ice', 'dragon', 'dark', 'fairy', 'stellar']
+
+def is_type(input:str) -> bool:
+    if input in all_types:
+        return True
+    return False
+
 def print_available_functions() -> None:
     print("Commands available are:")
     print("help, clear, weakness")
